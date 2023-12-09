@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/icon_home">
+    </item>
+    <item android:id="@+id/tambah" android:title="Tambah" android:icon="@drawable/icon_add">
+    </item>
+    <item android:id="@+id/profile" android:title="JSON API RETROFIT" android:icon="@drawable/icon_person">
+    </item>
+</menu>

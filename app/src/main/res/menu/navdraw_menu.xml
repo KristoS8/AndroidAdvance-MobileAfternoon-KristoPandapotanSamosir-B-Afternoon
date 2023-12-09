@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navdraw_home"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/navbar_materi"
+            android:icon="@drawable/icon_book"
+            android:title="Materi" />
+
+        <item
+            android:id="@+id/navbar_simpan"
+            android:icon="@drawable/icon_simpan"
+            android:title="Tersimpan" />
+
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/navbar_brain_trainer"
+                android:icon="@drawable/icon_question"
+                android:title="Brain Trainer Apps" />
+        </menu>
+
+    </item>
+
+</menu>
